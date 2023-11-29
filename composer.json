@@ -1,0 +1,22 @@
+{
+    "name": "danie/csgo",
+    "description": "Shop of csgoskins",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Danie\\Csgo\\": "./",
+            "Controllers\\":"./Controllers",
+            "Models\\":"./Models",
+            "Lib\\":"./Lib",
+            "Utils\\":"./Utils"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Escobar",
+            "email": "daniescomoli@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
